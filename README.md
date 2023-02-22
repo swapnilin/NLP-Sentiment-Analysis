@@ -1,4 +1,4 @@
-# NLP-Sentiment-Analysis
+# NLP-Data-Cleaning
 
 In this notebook I will demonstrate how to pre-process and clean text data for Natural Lanuage Processing applications and how to perform Sentiment Analysis on the data.
 
