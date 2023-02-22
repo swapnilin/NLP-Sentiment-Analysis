@@ -4,7 +4,7 @@ In this notebook I will demonstrate how to pre-process and clean text data for N
 
 Pre-processing and data cleaning are crucial steps in any NLP (Natural Language Processing) project. These steps help to ensure that the data used in the project is of high quality, and ready to be used for further analysis and modeling. The following are the common pre-processing and data cleaning steps in an NLP project:
 
-1. Data collection: The first step is to collect the data that will be used in the project. This can be done from various sources such as text files, web pages, databases, etc.
+**## 1. Data collection:** The first step is to collect the data that will be used in the project. This can be done from various sources such as text files, web pages, databases, etc.
 
 
 2. Data cleaning: Remove any irrelevant or redundant information from the data such as special characters, punctuation marks, numbers, etc. This step also involves correcting any spelling mistakes or typos in the data ('recieve' > 'receive', 'brocoli' > 'broccoli').
