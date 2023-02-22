@@ -1,27 +1,9 @@
-# NLP-Data-Cleaning
+# NLP-Sentiment-Analysis
 
 In this notebook I will demonstrate how to pre-process and clean text data for Natural Lanuage Processing applications and how to perform Sentiment Analysis on the data.
 
-Pre-processing and data cleaning are crucial steps in any NLP (Natural Language Processing) project. These steps help to ensure that the data used in the project is of high quality, and ready to be used for further analysis and modeling. The following are the common pre-processing and data cleaning steps in an NLP project:
+**Sentiment analysis** is a subfield of natural language processing (NLP) that involves analyzing and classifying the subjective opinions and attitudes expressed in text data, such as reviews, social media posts, and customer feedback. The goal of sentiment analysis is to determine the polarity of the sentiment, i.e., whether the expressed opinion is positive, negative, or neutral.
 
-**1. Data collection:** The first step is to collect the data that will be used in the project. This can be done from various sources such as text files, web pages, databases, etc.
+Sentiment analysis can be performed using machine learning techniques, such as supervised learning or unsupervised learning, to train models that can classify text into different sentiment categories. These models use a variety of features and techniques, such as bag-of-words, N-grams, and part-of-speech tagging, to identify patterns in the text and predict the sentiment.
 
-
-**2. Data cleaning:** Remove any irrelevant or redundant information from the data such as special characters, punctuation marks, numbers, etc. This step also involves correcting any spelling mistakes or typos in the data ('recieve' > 'receive', 'brocoli' > 'broccoli').
-
-
-**3. Text normalization:** Convert all the text data into a uniform format. This involves converting all the text to lowercase or uppercase, converting slang words or ackronyms ( e.g. lol, gn), expanding contractions (can't to can not), removing stop words (a, the, and, but), stemming or lemmatizing the words to reduce words to their base or root form.
-
-
-**4. Stemming:** Stemming is the process of reducing words to their base form by removing suffixes. e.g. the root word in 'writing' and 'written' is 'write'. You get rid of 'ing', 'ed' ,'en'. Stemming algorithms are fast and efficient, but they can sometimes produce non-words or words with a different meaning than the original word.
-
-
-**5. Lemmatization:** Lemmatization, on the other hand, is the process of reducing words to their base form using a morphological analysis of words. For e.g. the word 'better'. If we use a stemming algorithm to reduce this word to its base form, it will likely produce 'bett' as the stem. However, this stem is not a meaningful word and does not accurately represent the original word. Lemmatization on the other hand, will reduce the word to its base form or lemma of the word "better" would be "good".
-
-The choice between stemming and lemmatization will depend on the specific requirements of the NLP project and the trade-off between speed and accuracy.
-
-
-**6. Tokenization:** Tokenization is the process of splitting the text data into smaller chunks or tokens, such as words, phrases, or sentences. This step helps in preparing the text data for further analysis and modeling.
-
-
-**7. Text vectorization:** Text vectorization is the process of transforming data into a numerical format that can be used for analysis and modeling. This involves converting the text data into numerical vectors using techniques such as bag of words, TF-IDF, or word embeddings.
+Sentiment analysis is useful in a variety of applications, such as customer feedback analysis, social media monitoring, brand reputation management, and market research. It can help businesses and organizations to understand customer opinions and feedback, identify emerging trends, and make informed decisions based on the insights gained from the analysis.
